@@ -1,0 +1,6 @@
+framework module Pods_FeedbackMan_Example {
+  umbrella header "Pods-FeedbackMan_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

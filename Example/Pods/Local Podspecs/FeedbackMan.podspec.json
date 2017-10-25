@@ -1,0 +1,28 @@
+{
+  "name": "FeedbackMan",
+  "version": "0.1.0",
+  "summary": "A short description of FeedbackMan.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sshayashi/FeedbackMan",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sshayashi": "rhd_internship_ER9@r.recruit.co.jp"
+  },
+  "source": {
+    "git": "https://github.com/sshayashi/FeedbackMan.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "FeedbackMan/Classes/**/*.swift",
+  "resource_bundles": {
+    "FeedbackMan": [
+      "FeedbackMan/Resources/Storyboard/*.storyboard",
+      "FeedbackMan/Resources/Images/*.png"
+    ]
+  }
+}

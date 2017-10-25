@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FeedbackMan_Example' do
+  pod 'FeedbackMan', :path => '../'
+
+  target 'FeedbackMan_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

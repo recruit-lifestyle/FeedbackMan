@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="FeedbackMan_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" opaque="NO" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ato-Ij-eP1">
+                                <rect key="frame" x="150" y="238" width="75" height="30"/>
+                                <state key="normal" title="Show Alert"/>
+                                <connections>
+                                    <action selector="showAlert:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="KBM-MQ-a1o"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1FU-5l-cjg">
+                                <rect key="frame" x="124" y="318" width="126" height="30"/>
+                                <state key="normal" title="Show ActionSheet"/>
+                                <connections>
+                                    <action selector="showActionSheet:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="3IE-9Y-iv5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qkl-YH-ZRn">
+                                <rect key="frame" x="84" y="398" width="207" height="30"/>
+                                <state key="normal" title="Present to NextViewController"/>
+                                <connections>
+                                    <action selector="presentToNext:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9sP-Cb-tqL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.76614258728889695" green="0.92520642973354195" blue="0.9994240403175354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ato-Ij-eP1" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="31A-hj-dDY"/>
+                            <constraint firstItem="qkl-YH-ZRn" firstAttribute="top" secondItem="1FU-5l-cjg" secondAttribute="bottom" constant="50" id="OD6-Rx-DTu"/>
+                            <constraint firstItem="1FU-5l-cjg" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="Od3-oO-glC"/>
+                            <constraint firstItem="1FU-5l-cjg" firstAttribute="top" secondItem="ato-Ij-eP1" secondAttribute="bottom" constant="50" id="TU3-Ar-ZRC"/>
+                            <constraint firstItem="1FU-5l-cjg" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="gu3-I6-K4e"/>
+                            <constraint firstItem="qkl-YH-ZRn" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="sJh-p4-zxP"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="94.902548725637189"/>
+        </scene>
+    </scenes>
+</document>
