@@ -31,7 +31,7 @@ A feedback tool for iOS developers, which can send a lot of information with sim
 
 ### CocoaPods
 
-FeedbackMan is available through [CocoaPods](http://cocoapods.org).
+FeedbackMan is available through [CocoaPods](http://cocoapods.org).  
 If you have not installed CocoaPods, run the following command:
 
 ```
@@ -55,7 +55,7 @@ $ pod install
 
 ### Carthage
 
-[Carthage](https://github.com/Carthage/Carthage) is a simple, decentralized dependency manager for Cocoa.
+[Carthage](https://github.com/Carthage/Carthage) is a simple, decentralized dependency manager for Cocoa.  
 To install FeedbackMan through Carthage, simply add the following line to your `Cartfile`:
 
 ```
@@ -72,7 +72,7 @@ $ carthage update --platform iOS
 
 ### Requirements
 
-Please get your Slack API token.
+Please get your Slack API token.  
 You can create token at the following page: https://api.slack.com/custom-integrations/legacy-tokens
 
 To activate FeedbackMan, add the following line to `AppDelegate.swift` in your project:
@@ -115,7 +115,7 @@ then, set the property **Swift Compiler - Custom Flags** at **Build Settings** a
 
 ### Customize
 
-You can launch FeedbackMan in any kind of way as you like. (other button, widget, shake, etc.)
+You can launch FeedbackMan in any kind of way as you like. (other button, widget, shake, etc.)  
 To launch this library, please call the following method in your app:
 
 ```swift
