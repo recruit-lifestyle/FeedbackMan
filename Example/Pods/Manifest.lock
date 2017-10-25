@@ -1,5 +1,5 @@
 PODS:
-  - FeedbackMan (0.1.0)
+  - FeedbackMan (1.0.0)
 
 DEPENDENCIES:
   - FeedbackMan (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  FeedbackMan: 58dd15322010917f3173dfcf8cecbce1c1973770
+  FeedbackMan: 4b5da5546192cf7d3f68d6b4623ce461e41374ad
 
 PODFILE CHECKSUM: 366112931b8775556bf28f6d5927c354cfc11e0a
 
