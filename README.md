@@ -16,15 +16,15 @@ A feedback tool for iOS developers, which can send a lot of information with sim
 
 ### Screen Capture
 
-![capture](https://ghe.misosiru.io/sm-hotpepper-beauty/FeedbackMan/blob/master/Example/media/capture.gif)
+![capture](https://github.com/recruit-lifestyle/FeedbackMan/blob/master/Example/media/capture.gif)
 
 ### Edit Image
 
-![edit](https://ghe.misosiru.io/sm-hotpepper-beauty/FeedbackMan/blob/master/Example/media/edit.gif)
+![edit](https://github.com/recruit-lifestyle/FeedbackMan/blob/master/Example/media/edit.gif)
 
 ### Send Feedback
 
-![send](https://ghe.misosiru.io/sm-hotpepper-beauty/FeedbackMan/blob/master/Example/media/send.gif)
+![send](https://github.com/recruit-lifestyle/FeedbackMan/blob/master/Example/media/send.gif)
 
 ## Installation
 
@@ -99,7 +99,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 then, set the property **Swift Compiler - Custom Flags** at **Build Settings** as following image:
 
-![custom_flags](https://ghe.misosiru.io/sm-hotpepper-beauty/FeedbackMan/blob/master/Example/media/custom_flags.png)
+![custom_flags](https://github.com/recruit-lifestyle/FeedbackMan/blob/master/Example/media/custom_flags.png)
 
 ### Customize
 
@@ -114,7 +114,7 @@ FeedbackManManager.sharedInstance.showModal()
 
 FeedbackMan is owned and maintained by [RECRUIT LIFESTYLE CO., LTD.](http://www.recruit-lifestyle.co.jp/)
 
-FeedbackMan was originally created by [Naomichi Okada](https://github.com/nb6u7) and [Masafumi Hayashi](https://github.com/SShayashi)
+FeedbackMan was originally created by [Naomichi Okada](https://github.com/nb6u7) and [Masafumi Hayashi](https://github.com/SShayashi).
 
 
 ## License
