@@ -3,6 +3,7 @@
 [![Version](https://img.shields.io/cocoapods/v/FeedbackMan.svg?style=flat)](http://cocoapods.org/pods/FeedbackMan)
 [![License](https://img.shields.io/cocoapods/l/FeedbackMan.svg?style=flat)](http://cocoapods.org/pods/FeedbackMan)
 [![Platform](https://img.shields.io/cocoapods/p/FeedbackMan.svg?style=flat)](http://cocoapods.org/pods/FeedbackMan)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/hsylife/SwiftyPickerPopover)
 
 A feedback tool for iOS developers, which can send a lot of information with simple operation.
 
@@ -54,7 +55,18 @@ $ pod install
 
 ### Carthage
 
-In progress...
+[Carthage](https://github.com/Carthage/Carthage) is a simple, decentralized dependency manager for Cocoa.
+To install FeedbackMan through Carthage, simply add the following line to your `Cartfile`:
+
+```
+github "recruit-lifestyle/FeedbackMan"
+```
+
+then, run the following command:
+
+```
+$ carthage update --platform iOS
+```
 
 ## Usage
 

@@ -16,15 +16,12 @@
 		44D8904565D32749A00E3C43BC6A9FD2 /* Pods-FeedbackMan_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E66C7DCCF2EC2C7E730CF7EDCAAA38E8 /* Pods-FeedbackMan_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CD416C66592DBEF625232BE475E6BE2 /* ModalPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933892A2FD806D5B13E31F74B040670E /* ModalPresenter.swift */; };
 		4D695BD800922618A0D906EEB0F9F04B /* ModalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DF50A38060A24D964142C8F0165FC /* ModalVC.swift */; };
-		57A3EB3F0FFA31E4B29CD85015D30851 /* ImageEditVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730245F039E803A9E7F12E8A6F8999FE /* ImageEditVC.storyboard */; };
-		5F818DAF671F98EABA478BA95780E8A7 /* ModalVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3825A9D9C5AE53E29BBE5C18173C732B /* ModalVC.storyboard */; };
 		6A6100969CB5ED59C97D0944B4F39272 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		6D15A4F3425FA745DC0D950F99919CCB /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7529D8A0D7EAE178B655CF156A96346C /* UIImage.swift */; };
 		75A0E597C8666DF837CE36D0C32E5711 /* FeedbackManManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BACC65FB446E1E77B29890E968AFBA /* FeedbackManManager.swift */; };
 		903C6E058753BF2552C363F9C858BA49 /* FeedbackMan-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE38BC6B7B738230BCE5B39DA9E41446 /* FeedbackMan-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		93BED9973506E2FB63EDA01759D7432F /* UIView+Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBB7BA6550B1A7363890116547810EB /* UIView+Border.swift */; };
 		94DB803376FDAECBCD03EB6463058BB0 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E0BCD43BC8670FAC457B9B656A0D15 /* APIClient.swift */; };
-		9F476E2A02867DD9AA36C07CA522F56E /* FeedbackMan.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 36BD0E873A84089BFB787DD203097ECB /* FeedbackMan.bundle */; };
 		A67AC5721E3720CE2868316BC50AE646 /* FeedbackMan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D50E3E6D4F73E45C0881AC37123AF6 /* FeedbackMan-dummy.m */; };
 		A8F1108D7099E40CAADCA92CC96AC606 /* Pods-FeedbackMan_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E36AF7B946BBE2E8CF74EC1D5B01F15D /* Pods-FeedbackMan_Example-dummy.m */; };
 		B2887FF98E8FD1B011D626E2A2AC6018 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544840B92392D5356A4C245E1F9CFBA6 /* APIError.swift */; };
@@ -34,7 +31,6 @@
 		C74A527B8C1A92312D63713CEF4D86AD /* Pods-FeedbackMan_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D81D2F20340AA170AF3BF295D17A67EB /* Pods-FeedbackMan_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CAB81D3A0E4B7799BEE1FB92037B5719 /* Pods-FeedbackMan_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6368EB4DF010333C0A21C65FF64B486 /* Pods-FeedbackMan_Tests-dummy.m */; };
 		DCE05C927A17E649BA4BD7CFE99ED143 /* ImageEditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F06ADBB8FA972C9F0E3EAB306FB610 /* ImageEditVC.swift */; };
-		F10EA54B0C2F5A28A1BF21B7F375BF6B /* like_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E40576F87C4AF0419DFA94A5F64563F /* like_button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,13 +40,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = F46C55D17A405A8313EE97FECD66B567;
 			remoteInfo = FeedbackMan;
-		};
-		A5B55BDE47FE5710F6B6A3783883E9D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E5EB784B2B2BC5CE318074C4DC1AB7D4;
-			remoteInfo = "FeedbackMan-FeedbackMan";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -63,7 +52,6 @@
 		31F2C2206E8EE7ECFC268B4C26EAFE11 /* Pods-FeedbackMan_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FeedbackMan_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		321CAF71D51591891D52ADBD4F0C6426 /* Pods-FeedbackMan_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FeedbackMan_Example.modulemap"; sourceTree = "<group>"; };
 		343DD187E4A64CC30CBD5F45D88E7738 /* FeedbackMan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FeedbackMan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		36BD0E873A84089BFB787DD203097ECB /* FeedbackMan.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeedbackMan.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		370DF50A38060A24D964142C8F0165FC /* ModalVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ModalVC.swift; sourceTree = "<group>"; };
 		3825A9D9C5AE53E29BBE5C18173C732B /* ModalVC.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = ModalVC.storyboard; sourceTree = "<group>"; };
 		3844B05E2F11D4E1AAFF6ED8B2E5F1F7 /* ResourceBundle-FeedbackMan-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FeedbackMan-Info.plist"; sourceTree = "<group>"; };
@@ -122,13 +110,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A6100969CB5ED59C97D0944B4F39272 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3404DB42F87B434A56806F5953480BB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +249,6 @@
 		9DA7EE4B7A6648A16137075C037DA166 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				36BD0E873A84089BFB787DD203097ECB /* FeedbackMan.bundle */,
 				343DD187E4A64CC30CBD5F45D88E7738 /* FeedbackMan.framework */,
 				D28DF25EA12E3D144FBA67FB70B2E4DC /* Pods_FeedbackMan_Example.framework */,
 				0B2D1843BDCB1671AF4A5EBAA3CC07B4 /* Pods_FeedbackMan_Tests.framework */,
@@ -403,23 +383,6 @@
 			productReference = D28DF25EA12E3D144FBA67FB70B2E4DC /* Pods_FeedbackMan_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E5EB784B2B2BC5CE318074C4DC1AB7D4 /* FeedbackMan-FeedbackMan */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1AF0672F45ECDFCAB067AFD29119F310 /* Build configuration list for PBXNativeTarget "FeedbackMan-FeedbackMan" */;
-			buildPhases = (
-				8281F70A22516AE6A7A13811DDA460DA /* Sources */,
-				C3404DB42F87B434A56806F5953480BB /* Frameworks */,
-				3BD443D3AE8258EE0BAA881C16D5F389 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "FeedbackMan-FeedbackMan";
-			productName = "FeedbackMan-FeedbackMan";
-			productReference = 36BD0E873A84089BFB787DD203097ECB /* FeedbackMan.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 		F46C55D17A405A8313EE97FECD66B567 /* FeedbackMan */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 832BBC94CD77D3A382193449985A1583 /* Build configuration list for PBXNativeTarget "FeedbackMan" */;
@@ -432,7 +395,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				45A71C8544D500683A6640D6828676B3 /* PBXTargetDependency */,
 			);
 			name = FeedbackMan;
 			productName = FeedbackMan;
@@ -461,7 +423,6 @@
 			projectRoot = "";
 			targets = (
 				F46C55D17A405A8313EE97FECD66B567 /* FeedbackMan */,
-				E5EB784B2B2BC5CE318074C4DC1AB7D4 /* FeedbackMan-FeedbackMan */,
 				D510F8D37086987885F8ED859B83DC6B /* Pods-FeedbackMan_Example */,
 				103F13F2B7FE1F751A75848F68A2A0FE /* Pods-FeedbackMan_Tests */,
 			);
@@ -469,21 +430,10 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3BD443D3AE8258EE0BAA881C16D5F389 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				57A3EB3F0FFA31E4B29CD85015D30851 /* ImageEditVC.storyboard in Resources */,
-				F10EA54B0C2F5A28A1BF21B7F375BF6B /* like_button.png in Resources */,
-				5F818DAF671F98EABA478BA95780E8A7 /* ModalVC.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		914BA11B582B94DC0A38F604862A32B0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F476E2A02867DD9AA36C07CA522F56E /* FeedbackMan.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,13 +453,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8F1108D7099E40CAADCA92CC96AC606 /* Pods-FeedbackMan_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8281F70A22516AE6A7A13811DDA460DA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,12 +487,6 @@
 			name = FeedbackMan;
 			target = F46C55D17A405A8313EE97FECD66B567 /* FeedbackMan */;
 			targetProxy = 66907687BE51266B31BF8E1175FFB328 /* PBXContainerItemProxy */;
-		};
-		45A71C8544D500683A6640D6828676B3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "FeedbackMan-FeedbackMan";
-			target = E5EB784B2B2BC5CE318074C4DC1AB7D4 /* FeedbackMan-FeedbackMan */;
-			targetProxy = A5B55BDE47FE5710F6B6A3783883E9D5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -702,23 +639,6 @@
 			};
 			name = Release;
 		};
-		33B1C28DC70C02169D7E1611249CBFB8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6712D50716591FC6FAF90DE83BDECC09 /* FeedbackMan.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FeedbackMan";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/FeedbackMan/ResourceBundle-FeedbackMan-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = FeedbackMan;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		780525D8F4400FCF9F13ACC89A427283 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6712D50716591FC6FAF90DE83BDECC09 /* FeedbackMan.xcconfig */;
@@ -800,23 +720,6 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		AEC8C63FB624B391414CEA4E7B8F0979 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6712D50716591FC6FAF90DE83BDECC09 /* FeedbackMan.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FeedbackMan";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/FeedbackMan/ResourceBundle-FeedbackMan-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = FeedbackMan;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -903,15 +806,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1AF0672F45ECDFCAB067AFD29119F310 /* Build configuration list for PBXNativeTarget "FeedbackMan-FeedbackMan" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AEC8C63FB624B391414CEA4E7B8F0979 /* Debug */,
-				33B1C28DC70C02169D7E1611249CBFB8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
